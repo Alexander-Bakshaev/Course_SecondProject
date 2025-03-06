@@ -12,4 +12,4 @@ class Worker(models.Model):
     def __str__(self):
         return f'{self.first_name} {self.last_name} ({self.age})'
 
-Product.objects.all().order_by('?')
+# python manage.py shell_plus --print-sql
