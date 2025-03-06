@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'onetoone.apps.OnetooneConfig',
     'onetomany.apps.OnetomanyConfig',
     'manytomany.apps.ManytomanyConfig',
+    'orm_method.apps.OrmMethodConfig',
 ]
 
 MIDDLEWARE = [
